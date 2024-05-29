@@ -1,1 +1,2 @@
-from fast_sql import *
+# __init__.py
+from fast_sql import fast_sqlite
