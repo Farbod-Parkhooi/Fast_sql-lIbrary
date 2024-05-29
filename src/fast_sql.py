@@ -41,6 +41,9 @@ class fast_sql():
         else: 
             values = convert_attr_to_text(values)
             self.cursor.execute(f"""INSERT INTO {self.tb_name} ({self.str_attributes})
-                                VALUES ({values})""")
+                                VALUES ({values});""")
             self.con.commit()
             return True
+    def Select_from(self, Select: str, Where_value: str, input: str): 
+        self.cursor.execute(f"""SELECT {Select} FROM {self.tb_name} WHERE {Where_value}='{input}';""")
+        return self.cursor.fetchall()
