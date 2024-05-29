@@ -1,3 +1,0 @@
-[build-system]
-requires = ['setuptools>=42', 'pysqlite3>=3.45.1']
-build-backend = 'setuptools.build_meta'

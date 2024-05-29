@@ -4,7 +4,7 @@ with open("README.md", "r", encoding = "utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name = "Fast_sqlite",
+    name = "fast-sqlite-python",
     version = "0.0.5",
     author = "Farbod Parkhooi(Unknow-per)",
     author_email = "farbod.p1390@gmail.com",
