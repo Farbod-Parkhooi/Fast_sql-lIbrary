@@ -68,3 +68,6 @@ output = fsql.Custome_command("command") # output: output of your command :)
 print(output)
 
 ```
+
+# Contributes
+<h3> 1.<a target="_blank" href="https://www.github.com/Unknow-per/">Unknow-per</a></h3>
