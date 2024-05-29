@@ -47,3 +47,6 @@ class fast_sql():
     def Select_from(self, Select: str, Where_value: str, input: str): 
         self.cursor.execute(f"""SELECT {Select} FROM {self.tb_name} WHERE {Where_value}='{input}';""")
         return self.cursor.fetchall()
+    def Custome_command(self, command):
+        self.cursor.execute(command)
+        return self.cursor.fetchall()
