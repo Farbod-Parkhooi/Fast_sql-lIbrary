@@ -3,12 +3,12 @@ try:
 except: print("use: pip install colorama")
 from os import system, mkdir
 from platform import uname
-from fast_sql import fast_sql
+from fast_sql import fast_sqlite
 init()
 try:
     mkdir("Importants")
 except: pass
-fsql = fast_sql("Importants/database.db", "users", ["username", "password", "os_release"])
+fsql = fast_sqlite("Importants/database.db", "users", ["username", "password", "os_release"])
 fsql.connect()
 Platform = uname()[0].lower()
 if Platform == "windows": system("cls")

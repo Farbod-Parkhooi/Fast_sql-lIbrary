@@ -1,13 +1,13 @@
-# Fast_SQL
+# Fast_sqlite
 
 <b>Fast SQL</b> is a Python library to make and use a sqlite3 database. For use this library you can copy the file in your code directory and use below codes or read <b>src/example/write_and_read_data.py</b> file
 
 # Create values to use library
 ```python
 
-from fast_sql import fast_sql
+from fast_sql import fast_sqlite
 
-fsql = fast_sql(db_name="database.db", table_name="users", attributes=["username", "email", "password"])
+fsql = fast_sqlite(db_name="database.db", table_name="users", attributes=["username", "email", "password"])
 
 ```
 

@@ -7,7 +7,7 @@ def convert_attr_to_text(attributes):
         if i >= num: output += "'"
         else: output += "', "
     return output
-class fast_sql():
+class fast_sqlite():
     def __init__(self, db_name: str, table_name: str, attributes: list):
         # Create self values
         self.db_name = db_name

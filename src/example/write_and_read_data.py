@@ -1,8 +1,8 @@
 # Import Library
-from fast_sql import fast_sql
+from fast_sql import fast_sqlite
 
-# create fast_sql class value
-fsql = fast_sql("database.db", "Users", ["username", "email", "password"])
+# create fsql class value
+fsql = fast_sqlite("database.db", "Users", ["username", "email", "password"])
 
 # connect to database
 fsql.connect()
