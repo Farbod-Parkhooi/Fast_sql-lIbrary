@@ -27,3 +27,12 @@ class fast_sql():
         self.con = connect
         self.cursor = cursor
         self.str_attributes = str_attributes
+    def Insert_in(self, values: list):
+        if len(self.attributes) != len(values):
+            return "Error; Len of attributes not equal to values len. Please check it."
+        else: 
+            values = convert_attr_to_text(values)
+            self.cursor.execute(f"""INSERT INTO {self.tb_name} ({self.str_attributes})
+                                VALUES ({values})""")
+            self.con.commit()
+            return True
