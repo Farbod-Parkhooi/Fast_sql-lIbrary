@@ -36,3 +36,9 @@ class fast_sql():
                                 VALUES ({values})""")
             self.con.commit()
             return True
+    def __close__(self):
+        try: 
+            self.con.close()
+            return True
+        except: 
+            return False
