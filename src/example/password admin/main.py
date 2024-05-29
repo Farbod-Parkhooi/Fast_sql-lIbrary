@@ -1,8 +1,6 @@
 try:
     from colorama import init, Fore
-except: 
-    print("use: pip install colorama")
-    exit()
+except: print("use: pip install colorama")
 from os import system, mkdir
 from platform import uname
 from fast_sql import fast_sql
