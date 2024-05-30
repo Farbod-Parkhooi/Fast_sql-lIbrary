@@ -50,3 +50,21 @@ class fast_sql():
     def Custome_command(self, command):
         self.cursor.execute(command)
         return self.cursor.fetchall()
+    def add_new_column(self, column_name: str):
+        self.cursor.execute(f"""ALTER TABLE {self.tb_name} ADD COLUMN {column_name};""")
+        self.con.commit()
+        return True
+    def remove_column(self, column_name: str):
+        self.cursor.execute(f"""ALTER TABLE {self.tb_name} DROP COLUMN {column_name};""")
+        self.con.commit()
+        return True
+    def all_table_data(self):
+        self.cursor.execute(f"""SELECT * FROM {self.tb_name};""")
+        return self.cursor.fetchall()
+    def all_rows(self):
+        self.cursor.execute(f"""SELECT COUNT (*) FROM {self.tb_name};""")
+        return self.cursor.fetchall()
+    def clear_table(self):
+        self.cursor.execute(f"""DELETE FROM {self.tb_name};""")
+        self.con.commit()
+        return True
