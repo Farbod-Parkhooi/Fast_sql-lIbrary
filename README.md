@@ -1,6 +1,6 @@
 # Fast_sqlite
 
-<b>Fast SQL</b> is a Python library to make and use a sqlite3 database. For use this library you can copy the file in your code directory and use below codes or read <b>src/example/write_and_read_data.py</b> file
+<b>Fast SQL</b> is a Python library to make and use a sqlite3 database. For use this library you can copy the file in your code directory and use below codes or read <b>example/write_and_read_data.py</b> file
 
 # Create values to use library
 ```python
@@ -68,6 +68,9 @@ output = fsql.Custome_command("command") # output: output of your command :)
 print(output)
 
 ```
+
+# Fast-sql CLI
+For have the CLI mode of Fast-sql library you can get the <a href="https://www.github.com/Unknow-per/Fast_sql-cli">Fast_sql-cli</a>.
 
 # Contributes
 <h3> 1.<a target="_blank" href="https://www.github.com/Unknow-per/">Unknow-per</a></h3>
