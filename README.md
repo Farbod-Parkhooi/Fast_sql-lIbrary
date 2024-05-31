@@ -71,7 +71,7 @@ print(output)
 
 # Sqlite database schematic
 
-<img href="https://learnsql.com/blog/sql-basics-cheat-sheet/01-sample-data.webp" width="100%" height="500px" />
+[<img href="[https://learnsql.com/blog/sql-basics-cheat-sheet/01-sample-data.webp](https://learnsql.com/blog/sql-basics-cheat-sheet/01-sample-data.webp)" width="100%" height="500px" />](https://learnsql.com/blog/sql-basics-cheat-sheet/01-sample-data.webp)
 
 # Contributes
 <h3> 1.<a target="_blank" href="https://www.github.com/Unknow-per/">Unknow-per</a></h3>
