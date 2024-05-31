@@ -69,7 +69,7 @@ print(output)
 
 ```
 
-# Sqlite database schematic
+# <a href='https://learnsql.com/blog/sql-basics-cheat-sheet/01-sample-data.webp' target='_blank'>Sqlite database schematic </a>
 
 [<img href="[https://learnsql.com/blog/sql-basics-cheat-sheet/01-sample-data.webp](https://learnsql.com/blog/sql-basics-cheat-sheet/01-sample-data.webp)" width="100%" height="500px" />](https://learnsql.com/blog/sql-basics-cheat-sheet/01-sample-data.webp)
 
